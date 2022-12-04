@@ -12,5 +12,6 @@ def main():
     n = int(input())
     m = int(input())
     matrix = filling_matrix(n)
+    print(*maximum_in_matrix(matrix))
 
 main()
