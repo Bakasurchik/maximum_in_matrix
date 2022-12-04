@@ -5,6 +5,5 @@ def main():
     n = int(input())
     m = int(input())
     matrix = filling_matrix(n)
-    print(*matrix, sep='\n')
 
 main()
